@@ -11,4 +11,11 @@ func main() {
 
 	var velocity int
 	fmt.Scan(&velocity)
+
+	var fuel int
+	fmt.Scan(&fuel)
+
+	var fuelConsumption int
+	fmt.Scan(&fuelConsumption)
+
 }
