@@ -18,4 +18,11 @@ func main() {
 	var fuelConsumption int
 	fmt.Scan(&fuelConsumption)
 
+	if velocity*time < distance {
+		fmt.Println("Failure: Not enought time!")
+	} else if fuel*fuelConsumption < distance {
+		fmt.Println("Failure: Not enough fuel")
+	} else {
+		fmt.Println("Success: Welcome to Mars")
+	}
 }
